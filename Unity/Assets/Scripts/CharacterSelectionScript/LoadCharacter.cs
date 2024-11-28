@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro; 
+using DevionGames.InventorySystem;
 
 /// <summary>
 /// Handles the loading and instantiation of character prefabs based on player selection.

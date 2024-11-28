@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace DevionGames.InventorySystem
+{
 /// <summary>
 /// Manages a collection of weapon GameObjects in the game.
 /// This script handles the activation and deactivation of different weapons
@@ -55,4 +57,5 @@ public class CollectionWeapons : MonoBehaviour
 
         Debug.Log($"Weapon {number} activated.");
     }
+  }
 }
